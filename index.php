@@ -6,7 +6,7 @@
 	}else
 		$_SESSION['msg'] = "Login efetuado com sucesso!";
 
-	if($_GET['logout']){
+	if(isset($_GET['logout'])){
 		unset($_SESSION['logado']);
 		session_destroy();
 		header("location: login.php");
