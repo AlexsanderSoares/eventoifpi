@@ -40,6 +40,7 @@
 <body>
     <div class="container">
         <div class="row">
+            
             <fieldset>
             <form method="post">
                 <?php
@@ -49,8 +50,11 @@
                     }
                 ?>
                 <div class="form-group">
+                    <img class="logoifpi" src="logoifpi.png" alt="">
+                </div>
+                <div class="form-group">
                     <label for="usuario">Usuário</label>
-                    <input class="form-control" name="login" type="text" min="1" id="usuario" maxlength="20" placeholder="&#9787;Usuário" required autofocus>
+                    <input class="form-control" name="login" type="text" min="1" id="usuario" maxlength="50" placeholder="&#9787;Usuário" required autofocus>
                 </div>
                 <div class="form-group">
                     <label for="senha">Senha</label>

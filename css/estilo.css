@@ -1,15 +1,19 @@
 body{
     width: 100%;
-    position: absolute;
+}
+.logoifpi{
+    display: block;
+    float: right;
+    width: 30px;
+    margin:7px;
 }
 fieldset{
+    display: block;
     position: relative;
     width: 80%;
-    /*display: inline-block;
-    vertical-align: middle;*/
     padding: 20px;
-    margin :  20vh auto 20vh auto;
-    background-color: rgba(0, 0, 0, 0.3);
+    margin : 20vh auto  20vh auto;
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
 }
@@ -29,27 +33,67 @@ input{
     cursor: pointer;
     padding:20px;
     margin-top:20px;
-    }
-     
-    .mainmenubtn:hover {
+    border-radius: 6px;
+}
+    
+.mainmenubtn:hover {
+    border-radius: 6px;
     background-color: red;
-    }
-     
-    .dropdown {
+}
+    
+.dropdown {
     position: relative;
     display: inline-block;
-    }
-    .dropdown-child {
+}
+.dropdown-child {
     display: none;
     background-color: black;
     min-width: 200px;
-    }
-    .dropdown-child a {
+}
+.dropdown-child a {
     color: white;
     padding: 20px;
     text-decoration: none;
     display: block;
-    }
-    .dropdown:hover .dropdown-child {
+}
+.dropdown:hover .dropdown-child {
     display: block;
-    }
+}
+.menu{
+    width: 30%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    padding: 5px;
+    margin:20vh auto 20vh auto;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9); 
+}
+.sair{
+    width: 30px;
+    display: block;
+    border: 1px;
+    background-color: rgb(220, 44, 13);
+    color: black;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 2vh auto 2vh auto;
+}
+.sair:hover{
+    width: 30px;
+    display: block;
+    border: 1px;
+    background-color: rgb(245, 43, 7);
+    color: black;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 2vh auto 2vh auto;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.9);
+}
+h1{
+    font-size: 12pt;
+    color: rgba(16, 148, 4, 0.789);
+}
