@@ -9,6 +9,7 @@
 	if($_GET['logout']){
 		unset($_SESSION['logado']);
 		session_destroy();
+		header("location: login.php");
 	}
 ?>
 
