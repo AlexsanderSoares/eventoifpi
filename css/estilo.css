@@ -1,0 +1,55 @@
+body{
+    width: 100%;
+    position: absolute;
+}
+fieldset{
+    position: relative;
+    width: 80%;
+    /*display: inline-block;
+    vertical-align: middle;*/
+    padding: 20px;
+    margin :  20vh auto 20vh auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+}
+input{
+    padding: 8px;
+}
+.btn{
+    text-decoration: none;
+}
+.btn:hover{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.mainmenubtn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+    }
+     
+    .mainmenubtn:hover {
+    background-color: red;
+    }
+     
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    .dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+    }
+    .dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    }
+    .dropdown:hover .dropdown-child {
+    display: block;
+    }
