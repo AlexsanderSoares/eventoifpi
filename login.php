@@ -43,12 +43,14 @@
             
             <fieldset>
             <form method="post">
-                <?php
-                    if(isset($_SESSION['msg'])){
-                            echo $_SESSION['msg'];
-                            unset($_SESSION['msg']);
-                    }
-                ?>
+                <p>
+                    <?php
+                        if(isset($_SESSION['msg'])){
+                                echo $_SESSION['msg'];
+                                unset($_SESSION['msg']);
+                        }
+                    ?>
+                </p>
                 <div class="form-group">
                     <img class="logoifpi" src="logoifpi.png" alt="">
                 </div>
